@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSW 306\\Project\\GroceryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{331485D7-14E5-4842-9937-83F4C576EEEC}|GroceryManagement\\GroceryManagement.csproj|d:\\csw 306\\project\\grocerymanagement\\grocerymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{331485D7-14E5-4842-9937-83F4C576EEEC}|GroceryManagement\\GroceryManagement.csproj|solutionrelative:grocerymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 20,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSW 306\\Project\\GroceryManagement\\GroceryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "GroceryManagement\\Program.cs",
+              "ToolTip": "D:\\CSW 306\\Project\\GroceryManagement\\GroceryManagement\\Program.cs",
+              "RelativeToolTip": "GroceryManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T03:22:29.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
