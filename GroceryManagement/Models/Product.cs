@@ -1,11 +1,32 @@
-﻿namespace GroceryManagement.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GroceryManagement.Models
 {
     public class Product
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string ThumbnailUrl { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-        public decimal Price { get; set; } = decimal.Zero;
+
+        [Required]
+        public string Name { get; set; }
+
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Price { get; set; }
+
+        public int Quantity { get; set; }
+
+        public string? ThumbnailUrl { get; set; }
+
+        public string? Description { get; set; }
+
+        // Foreign Key
+        public int CategoryId { get; set; }
+
+        public int SupplierId { get; set; }
+
+        //Navigation property
+        public Category? Category { get; set; }
+
+        public Supplier? Supplier { get; set; }
     }
 }
